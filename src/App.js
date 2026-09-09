@@ -1,9 +1,9 @@
-import Todo from "./Todo";
+import WeatherApp from "./WeatherApp";
 
 
 
 function App() {
-  return <Todo />;
+  return <WeatherApp />;
 }
 
 export default App;
