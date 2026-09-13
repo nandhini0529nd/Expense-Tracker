@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightblue;
+}
+.expense{
+    width: 400px;
+    margin:50px auto ;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px lightblue;
+}
+.expense h1{
+    margin-bottom: 20px;
+}
+.expense input{
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 2px solid lightblue;
+}
+.expense button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+
+}
+.expense p{
+    margin: 10px;
+}
+.add-btn {
+  background-color: #dcedc8;
+}
+
+.edit-btn {
+  background-color: #fff3cd;
+}
+
+.delete-btn {
+  background-color: #ffcdd2;
+}
+.expense input:focus {
+  outline: none;
+  border: 2px solid lightblue;
+  box-shadow: 0 0 5px lightblue;
+}
+.expense button:hover {
+  transform: scale(1.05);
+}
+.expense-item{
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f3e5f3;
+    border-radius:7px ;
+
+
+}
+.expense h2{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 10px;
+}
+.expense p{
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,9 +1,9 @@
-import WeatherApp from "./WeatherApp";
+import ExpenseTracker from "./ExpenseTracker";
 
 
 
 function App() {
-  return <WeatherApp />;
+  return <ExpenseTracker />;
 }
 
 export default App;
