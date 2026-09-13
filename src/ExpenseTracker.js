@@ -6,7 +6,7 @@ const[amount,setAmount]=useState("");
 const[expenses,setExpenses]=useState([]);
 return(
     <div className="expense">
-        <h1>ExpenseTracker</h1>
+        <h1>Expense Tracker</h1>
         <input
         type="text"
         placeholder="Expense name"
@@ -58,6 +58,7 @@ return(
                    </button> 
                 </div>
                  ))}
+                 <h3>Number of Expenses: {expenses.length}</h3>
                  <h2>
                     Total:₹{expenses.reduce((total,item)=>total+Number(item.amount),0)}
 

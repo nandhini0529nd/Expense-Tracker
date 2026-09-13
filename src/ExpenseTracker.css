@@ -31,11 +31,8 @@ body{
     border-radius: 7px;
     cursor: pointer;
     font-size: 15px;
-    margin-right: 10px;
+    
 
-}
-.expense p{
-    margin: 10px;
 }
 .add-btn {
   background-color: #dcedc8;
@@ -61,8 +58,6 @@ body{
     margin: 10px 0;
     background-color: #f3e5f3;
     border-radius:7px ;
-
-
 }
 .expense h2{
     margin-top: 20px;
@@ -73,4 +68,17 @@ body{
 .expense p{
     font-size: 18px;
     font-weight: bold;
+    margin: 10px;
+}
+.expense-item button {
+  margin: 5px;
+}
+@media (max-width: 500px) {
+  .expense {
+    width: 90%;
+  }
+
+  .expense input {
+    width: 90%;
+  }
 }
