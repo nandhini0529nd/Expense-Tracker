@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.notes {
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px lightgray;
+}
+.notes p {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f3e5f5;
+  border-radius: 7px;
+  font-size: 18px;
+}
+.notes button:hover {
+  transform: scale(1.05);
+}
+
+.edit-btn {
+  background-color: #fff3cd;
+  padding: 8px 15px;
+  margin: 3px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #ffcdd2;
+  padding: 8px 15px;
+  margin: 3px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.add-btn{
+  background-color:#dcedc8;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.notes input:focus {
+  outline: none;
+  border: 2px solid lightblue;
+  box-shadow: 0 0 5px lightblue;
+}
+.notes div {
+  margin: 10px 0;
+}
+@media (max-width: 500px) {
+  .notes {
+    width: 90%;
+  }
+
+  .notes input {
+    width: 90%;
+  }
+}
+.notes input {
+  width: 90%;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid lightblue;
+  border-radius: 7px;
+  font-size: 16px;
+}
